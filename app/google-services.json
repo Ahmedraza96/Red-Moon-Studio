@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "238704596650",
+    "project_id": "android-app-d670c",
+    "storage_bucket": "android-app-d670c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238704596650:android:1f86b17b30e99bf763a2d3",
+        "android_client_info": {
+          "package_name": "com.example.redmoonstudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238704596650-r43jcju3c641mmpc55uoi7obc1e0pjdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBunk-g8uRRsjyvSFLgovvlHRDSC3pVRMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238704596650-r43jcju3c641mmpc55uoi7obc1e0pjdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

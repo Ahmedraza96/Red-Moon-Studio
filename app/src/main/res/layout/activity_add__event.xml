@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_6"
+    android:visibility="visible"
+    tools:context=".Add_Event">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:background="#37C7DA"
+        android:fontFamily="cursive"
+        android:gravity="clip_horizontal|clip_vertical|center_horizontal|center_vertical"
+        android:text="@string/dash_2"
+        android:textColor="#0E0D0D"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="321dp"
+            android:layout_height="681dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/head"
+            app:layout_constraintVertical_bias="0.43">
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <EditText
+                android:id="@+id/Venue"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:ems="10"
+                android:hint="Venue"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <EditText
+                android:id="@+id/Date"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="Date (DD MM YYYY)"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="164dp" />
+
+            <EditText
+                android:id="@+id/Time"
+                android:layout_width="250dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:ems="10"
+                android:hint="Time"
+                android:inputType="time"
+                android:textColor="#131212"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="209dp" />
+
+            <EditText
+                android:id="@+id/Camera"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:ems="10"
+                android:hint="Camera Type"
+                android:inputType="textPostalAddress"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="259dp" />
+
+            <EditText
+                android:id="@+id/Contact"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:ems="10"
+                android:hint="Contact"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="304dp" />
+
+            <EditText
+                android:id="@+id/Link"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:ems="10"
+                android:hint="Link"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="66dp"
+                tools:layout_editor_absoluteY="349dp" />
+
+            <EditText
+                android:id="@+id/Price"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:ems="10"
+                android:hint="Price Rs."
+                android:inputType="number"
+                tools:layout_editor_absoluteX="66dp"
+                tools:layout_editor_absoluteY="349dp" />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="51dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_radius"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="117dp"
+                    android:layout_height="31dp"
+                    android:layout_weight="1"
+                    android:capitalize="none"
+                    android:gravity="center_vertical"
+                    android:paddingStart="4dp"
+                    android:text="Photographer"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="129dp"
+                    android:layout_height="36dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_book"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="Add" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

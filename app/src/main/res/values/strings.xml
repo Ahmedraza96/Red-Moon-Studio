@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Red Moon Studio</string>
+    <string name="pg">Red Moon Studio</string>
+    <string name="book">Red Moon Studio</string>
+    <string name="email">admin@studio.com</string>
+    <string name="dash_1">ADD PHOTOGRAPHER</string>
+    <string name="dash_3">VIEW PHOTOGRAPHERS</string>
+    <string name="dash_2">ADD EVENT</string>
+    <string name="dash_4">VIEW EVENTS</string>
+    <string name="dash_5">REPORTS</string>
+    <string name="dash_6">LOG OUT</string>
+</resources>

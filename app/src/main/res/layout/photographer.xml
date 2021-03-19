@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:background="#A3E5ED"
+        android:capitalize="characters"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="F_Name"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:background="#A3E5ED"
+        android:capitalize="characters"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="L_Name"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:background="#A3E5ED"
+        android:capitalize="characters"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="Experience"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:background="#A3E5ED"
+        android:capitalize="characters"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="Cell"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:background="#A3E5ED"
+        android:capitalize="characters"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="Gender"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:background="#A3E5ED"
+        android:capitalize="characters"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="Address"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/text1Date"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textAge" />
+
+    <TextView
+        android:id="@+id/textGender"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/text1Name" />
+
+    <TextView
+        android:id="@+id/text1Price"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textCell" />
+
+    <TextView
+        android:id="@+id/text1Name"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/text1Date" />
+
+    <TextView
+        android:id="@+id/textAge"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textGender" />
+
+    <TextView
+        android:id="@+id/textCell"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textAddress" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:background="#A3E5ED"
+        android:capitalize="characters"
+        android:gravity="center_vertical"
+        android:paddingStart="6dp"
+        android:text="Age"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        android:textAllCaps="true" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
