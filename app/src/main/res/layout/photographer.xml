@@ -189,29 +189,4 @@
         android:layout_width="160dp"
         android:layout_height="30dp"
         android:background="@drawable/border"
-        android:gravity="center_vertical"
-        android:paddingStart="6dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView25"
-        app:layout_constraintTop_toBottomOf="@+id/textAddress" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="99dp"
-        android:layout_height="30dp"
-        android:background="#A3E5ED"
-        android:capitalize="characters"
-        android:gravity="center_vertical"
-        android:paddingStart="6dp"
-        android:text="Age"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textView19"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        android:textAllCaps="true" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:
